@@ -29,8 +29,8 @@ public class Libro extends Escrito {
 	public String toString() {
 		String r = this.resumen() + "\n";
 		r += this.co_autor + "\n";
-		r += this.editorial;
-		r += this.edicion + "\n";
+		r += this.editorial + "\n";
+		r += this.edicion ;
 		return r;
 	}
 	public void setCo_autor(String co_autor) {
